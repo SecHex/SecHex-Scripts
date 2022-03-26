@@ -8,7 +8,7 @@
 ██████╦╝██║╚█████╔╝██╔╝╚██╗██████╔╝███████╗╚█████╔╝
 ╚═════╝░╚═╝░╚════╝░╚═╝░░╚═╝╚═════╝░╚══════╝░╚════╝░
 
---~~Bios no Recoil Tool~~ ->	https://github.com/BioXsec
+--~~BioX no Recoil Tool~~ ->	https://github.com/BioXsec
 --]]
 
 
