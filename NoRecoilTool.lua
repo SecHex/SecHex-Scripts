@@ -25,7 +25,7 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
 --]]
 
 
-    local sandra = true
+    local NoRecoil = true
     local udo = false --updating--
  
 function OnEvent(event, arg)
@@ -39,7 +39,7 @@ end
 
 if IsKeyLockOn("numlock")then 
 if (event== "MOUSE_BUTTON_PRESSED" and arg == 7) then
-sandra = not sandra
+NoRecoil = not NoRecoil
 if (recoil == true) then
     OutputLogMessage ("[+] No Recoil is On\n")
 else
@@ -49,7 +49,7 @@ end
 
 --						<=================~~NoRecoil Settings~~======================>
  
-if (event == "MOUSE_BUTTON_PRESSED" and arg ==1 and sandra == true) then
+if (event == "MOUSE_BUTTON_PRESSED" and arg ==1 and NoRecoil == true) then
 if IsMouseButtonPressed(1) and IsMouseButtonPressed(3)then
 repeat
    MoveMouseRelative(0,4)
