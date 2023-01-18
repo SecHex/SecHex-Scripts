@@ -1,0 +1,31 @@
+400 DPI ->
+
+Defender:
+
+Jager = (0,3)
+Bandit = (0,3)
+Melusi = (0,2)
+Lesion = (0,3)
+Ela = (0,5)
+Smoke = (0,5/6)
+Thunderbird = (0,2)
+Warden = (0,3)
+Wamai = (0,2)
+Doc = (0,2)
+Pulse = (0,3)
+
+
+Attacker:
+Ash = (0,5)
+Zofia = (0,5)
+Nomad = (0,4)
+Twitch = (0,5)
+Maverick = (0,3)
+Nook = (0,3)
+Finka = (0,3)
+Gridlock = (0,3)
+Amaru = (0,3)
+Sledge = (0,3)
+Thermite = (0,4)
+Kali = (Dont play kali dude)
+Ace = (0,4)
