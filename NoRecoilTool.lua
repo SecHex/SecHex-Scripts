@@ -25,9 +25,7 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
 --]]
 
 
-    local NoRecoil = true
-    local udo = false --updating--
- 
+local NoRecoil = true
 function OnEvent(event, arg)
          OutputLogMessage("event = %s, arg = %s\n", event, arg)
  
