@@ -1,6 +1,7 @@
 # NoRecoil-Tool
 
-![static (1) (2)](https://user-images.githubusercontent.com/96635023/213568564-610ff0c9-1e0e-4ca5-b486-43b84daba04a.png)
+![rsz_static_1_2](https://user-images.githubusercontent.com/96635023/213568658-4e671f18-c157-49dc-b4d6-380de559e712.png)
+
 
 
 # How to use?
