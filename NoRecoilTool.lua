@@ -35,15 +35,16 @@ end
 
 --						<=================~~Press Numlock to turn on~~======================>
 
-if IsKeyLockOn("numlock")then 
-if (event== "MOUSE_BUTTON_PRESSED" and arg == 7) then
-NoRecoil = not NoRecoil
-if (recoil == true) then
-    OutputLogMessage ("[+] No Recoil is On\n")
-else
-    OutputLogMessage ("[-] No Recoil is Off\n")
-end 
-end
+    if IsKeyLockOn("numlock") then
+        if (event == "MOUSE_BUTTON_PRESSED" and arg == 7) then
+            NoRecoil = not NoRecoil
+            if (NoRecoil == true) then
+                OutputLogMessage("[+] No Recoil is On\n")
+            else
+                OutputLogMessage("[-] No Recoil is Off\n")
+            end
+        end
+    end
 
 --						<=================~~NoRecoil Settings~~======================>
  
