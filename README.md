@@ -4,5 +4,7 @@
 2. Copy & Paste the code.
 3. Press "Numlock" to start the script.
 
-u can change the value of "MoveMouseRelative(0,4)" to make it stonger. 
+Mouse 4. for increase 
+Mouse 5. for decrease
+
 (Only for Lua-Script Mouses!)
