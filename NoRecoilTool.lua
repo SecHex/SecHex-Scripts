@@ -26,6 +26,8 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
 
 
 local NoRecoil = true
+local recoilStrength = 4
+
 function OnEvent(event, arg)
          OutputLogMessage("event = %s, arg = %s\n", event, arg)
  
@@ -35,23 +37,34 @@ end
 
 --						<=================~~Press Numlock to turn on~~======================>
 
-    if IsKeyLockOn("numlock") then
-        if (event == "MOUSE_BUTTON_PRESSED" and arg == 7) then
-            NoRecoil = not NoRecoil
-            if (NoRecoil == true) then
-                OutputLogMessage("[+] No Recoil is On\n")
-            else
-                OutputLogMessage("[-] No Recoil is Off\n")
-            end
-        end
-    end
+if IsKeyLockOn("numlock")then 
+if (event== "MOUSE_BUTTON_PRESSED" and arg == 7) then
+NoRecoil = not NoRecoil
+if (recoil == true) then
+    OutputLogMessage ("[+] No Recoil is On\n")
+else
+    OutputLogMessage ("[-] No Recoil is Off\n")
+end 
+end
+
+--						<=================~~Change recoil strength with mouse buttons~~======================>
+
+if (event== "MOUSE_BUTTON_PRESSED" and arg == 4) then
+    recoilStrength = recoilStrength + 1
+    OutputLogMessage("[+] Recoil strength increased to %d\n", recoilStrength)
+end
+
+if (event== "MOUSE_BUTTON_PRESSED" and arg == 5) then
+    recoilStrength = recoilStrength - 1
+    OutputLogMessage("[-] Recoil strength decreased to %d\n", recoilStrength)
+end
 
 --						<=================~~NoRecoil Settings~~======================>
  
 if (event == "MOUSE_BUTTON_PRESSED" and arg ==1 and NoRecoil == true) then
 if IsMouseButtonPressed(1) and IsMouseButtonPressed(3)then
 repeat
-   MoveMouseRelative(0,4)
+   MoveMouseRelative(0,recoilStrength)
    Sleep(14)
 until not IsMouseButtonPressed(1) or not IsMouseButtonPressed(3)
 end
