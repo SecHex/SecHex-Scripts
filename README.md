@@ -1,6 +1,6 @@
 # NoRecoil-Tool
 
-![static (1)](https://user-images.githubusercontent.com/96635023/213567109-d29c0b5c-4bcf-496c-b951-c6748352618d.png 100x20)
+![rsz_static_2](https://user-images.githubusercontent.com/96635023/213567545-f309eedc-fe45-45e1-b982-64b7ec6b69de.png)
 
 # How to use?
 1. create a new Lua Script.
