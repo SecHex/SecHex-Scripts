@@ -1,5 +1,5 @@
 # NoRecoil-Tool
-![NoRecoil-Tool](https://imgur.com/rarpVbk)
+![NoRecoil-Tool]([https://imgur.com/rarpVbk](https://i.imgur.com/rarpVbk.png))
 
 
 # dwad
