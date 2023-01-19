@@ -1,6 +1,7 @@
 # NoRecoil-Tool
-![NoRecoil-Tool]([https://imgur.com/rarpVbk](https://i.imgur.com/rarpVbk.png))
 
+
+![static (1)](https://user-images.githubusercontent.com/96635023/213567109-d29c0b5c-4bcf-496c-b951-c6748352618d.png)
 
 # dwad
 1. create a new Lua Script.
