@@ -24,14 +24,14 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
 --]]
 
 
+--	<===============~~Recoil Presets~~===============>
+
 local recoilPresets = {
     {strength = 4, description = "low"},
     {strength = 6, description = "medium"},
     {strength = 8, description = "high"}
 }
 
-
---	<===============~~Recoil Presets~~===============>
 
 
 local selectedPresetIndex = 1
