@@ -8,6 +8,10 @@
 2. Copy & Paste the code.
 3. Press "Numlock" to start the script.
 
+Tutorial: https://www.youtube.com/watch?v=vA2Ur5TDzjM
+
+
+
 Mouse 4. for increase 
 Mouse 5. for decrease
 
