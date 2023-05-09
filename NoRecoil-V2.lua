@@ -27,12 +27,10 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
 --	<===============~~Recoil Presets~~===============>
 
 local recoilPresets = {
-    {strength = 4, description = "low"},
-    {strength = 6, description = "medium"},
-    {strength = 8, description = "high"}
+    {strength = 4, horizontalStrength = 0, description = "low"},
+    {strength = 6, horizontalStrength = 1, description = "medium"},
+    {strength = 8, horizontalStrength = 2, description = "high"}
 }
-
-
 
 local selectedPresetIndex = 1
 local noRecoilEnabled = true
@@ -63,11 +61,11 @@ function OnEvent(event, arg)
     end
     
 
-    if (noRecoilEnabled and event == "MOUSE_BUTTON_PRESSED" and arg == 1 and IsMouseButtonPressed(1) and IsMouseButtonPressed(3)) then
-        local recoilStrength = recoilPresets[selectedPresetIndex].strength
-        repeat
-            MoveMouseRelative(0, recoilStrength)
-            Sleep(14)
-        until not (IsMouseButtonPressed(1) and IsMouseButtonPressed(3))
-    end
+if (noRecoilEnabled and event == "MOUSE_BUTTON_PRESSED" and arg == 1 and IsMouseButtonPressed(1) and IsMouseButtonPressed(3)) then
+    local recoil = recoilPresets[selectedPresetIndex]
+    repeat
+        MoveMouseRelative(recoil.horizontalStrength, recoil.strength)
+        Sleep(14)
+    until not (IsMouseButtonPressed(1) and IsMouseButtonPressed(3))
+end
 end
