@@ -20,7 +20,7 @@ Wi.~!X$?!-~    : ?$$$B$Wu("**$RM!
 $R@i.~~ !     :   ~$$$$$B$$en:``
 ?MXT@Wx.~    :     ~"##*$$$$M~
 
---~~Rapunzel's no Recoil Tool~~ ->	https://github.com/Rapunzel-ware
+--~~SecHex's no Recoil Tool~~ ->	https://github.com/SecHex
 --]]
 
 
