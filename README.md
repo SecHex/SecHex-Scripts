@@ -11,9 +11,12 @@
 Tutorial V1: https://youtu.be/vA2Ur5TDzjM                                      
 Tutorial V2: https://youtu.be/8ws3lF08Msw
 
+# Milestones 🏆
+**5 Stars** - ***V1 Rework*** ✅                             
+**10 Stars** - ***V2 Version (better)***  ✅                                                                
+**20 Stars** - ***Extern No-Recoil Tool with GUI [Valo, CSGO, R6S...]*** ✨     
 
-Mouse 4. for increase 
-Mouse 5. for decrease
+
 
 (Only for Lua-Script Mouses!)
 
