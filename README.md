@@ -5,8 +5,6 @@
 2. Copy & Paste the code.
 3. Press "Numlock" to start the script.
 
-Tutorial V1: https://youtu.be/vA2Ur5TDzjM                                      
-Tutorial V2: https://youtu.be/8ws3lF08Msw
 
 # Milestones 🏆
 **5 Stars** - ***V1 Rework*** ✅                             
